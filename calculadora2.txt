@@ -1,0 +1,62 @@
+Os comandos usados para a criação da calculadora foram feitos utilizando o terminal Linux/Mac e a linguagem Python.
+
+Para a lógica da calculadora em Python, usamos comandos e estruturas como:
+
+ `print` → para mostrar mensagens na tela;
+ `input` → para receber informações digitadas pelo usuário;
+ `if` → para criar condições;
+ `elif` → para verificar novas condições;
+ `else` → para executar outra opção caso nenhuma condição anterior seja verdadeira;
+ `while` → para manter a calculadora funcionando continuamente;
+ `try` e `except` → para tratar erros e evitar que o programa pare inesperadamente;
+ `import re` → para importar expressões regulares e permitir a remoção do último número digitado;
+ `list []` → utilizada para armazenar o histórico da calculadora;
+ `eval()` → usado para realizar os cálculos matemáticos digitados pelo usuário.
+
+Para funcionar no terminal Linux/Mac, utilizamos alguns comandos importantes.
+
+Primeiro usamos: mkdir calculadora
+
+para criar um novo diretório/pasta da calculadora.
+
+Depois entramos na pasta utilizando:cd calculadora
+
+Dentro desse diretório criamos os arquivos necessários.
+
+Arquivo 1:
+
+calculadora.py
+
+onde foi armazenado todo o código Python da calculadora.
+
+O arquivo foi criado utilizando: nano calculadora.py`
+
+Depois criamos, dentro do mesmo diretório, outro arquivo chamado:calculadora.sh
+
+utilizando:nano calculadora.sh
+
+Esse arquivo contém o script responsável por executar automaticamente a calculadora Python pelo terminal.
+
+O conteúdo utilizado foi:
+
+#!/bin/zsh
+echo "Iniciando script calculadora"
+python3 calculadora.py
+
+O comando:h
+chmod +x calculadora.sh
+
+foi utilizado para liberar permissão de execução do arquivo `.sh`.
+
+Depois disso, a calculadora passou a ser executada utilizando: ./calculadora.sh
+
+Outros comandos importantes utilizados durante a criação foram:
+
+ `ls` → listar arquivos e diretórios;
+ `ls -l` → visualizar permissões detalhadas dos arquivos;
+ `pwd` → mostrar o diretório atual;
+ `cd ..` → voltar um diretório anterior;
+ `open nome_arquivo` → abrir arquivos pelo terminal no Mac;
+ `python3 calculadora.py` → executar diretamente o arquivo Python.
+
+
