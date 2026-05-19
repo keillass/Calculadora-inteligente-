@@ -21,10 +21,10 @@ Além disso, o sistema oferece uma experiência mais inteligente, com recursos c
 
 # Funcionalidades
 
-## 1. Entrada de dados
+1. Entrada de dados
 O usuário digita a conta completa de uma única vez, sem precisar inserir número por número.
 
-## 2. Execução contínua
+2. Execução contínua
 A calculadora permanece ativa, permitindo vários cálculos seguidos sem reiniciar o programa.
 
 ## 3. Tratamento de erros
