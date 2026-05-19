@@ -17,8 +17,6 @@ A calculadora permite desde operações básicas até expressões mais completas
 
 Além disso, o sistema oferece uma experiência mais inteligente, com recursos como histórico, edição da conta e tratamento de erros.
 
----
-
 # Funcionalidades
 
 ## 1. Entrada de dados
@@ -60,7 +58,6 @@ Após usar D:
 6 + 9 +
 ```
 
-
 ## 6. Histórico de cálculos (comando H)
 O usuário pode visualizar todos os cálculos realizados.
 O histórico mostra:
@@ -70,7 +67,6 @@ O histórico mostra:
 ## 7. Execução automática
 Assim que a conta é digitada, o resultado aparece automaticamente.
 Não é necessário pressionar "=".
-
 
 ## 8. Exibição do resultado
 O resultado aparece em uma cor mais suave no terminal para facilitar a visualização.
@@ -126,7 +122,6 @@ Valor que está sendo digitado ou editado no momento.
 4. Se for comando:
    - Executa a ação correspondente
 5. O sistema continua rodando
-
 
 # Como executar o projeto
 ## Abrir o arquivo Python
